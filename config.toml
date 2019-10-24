@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "AAU Social Data Science PhD 2019"
 themesDir = "themes"
 theme = "whisper"
-
+enableEmoji = true
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -23,7 +23,14 @@ summaryLength = 30
     url = "/material/"
     weight = 2
 
+[[menu.main]]
+    name = "Info"
+    url = "/info/"
+    weight = 2
+
+
 [params]
+  mainSections = ["material", "info"]
   google_analytics_id=""
   homepage_button_link = '/material'
   homepage_button_text = 'Go to the course material'
