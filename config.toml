@@ -1,8 +1,8 @@
-baseURL = "/"
+baseURL = "https://caldiss-aau.github.io/sdsphd19/"
 languageCode = "en-us"
 title = "AAU Social Data Science PhD 2019"
 themesDir = "themes"
-theme = "hugo-whisper-theme"
+theme = "whisper"
 
 
 pygmentsCodeFences = true
